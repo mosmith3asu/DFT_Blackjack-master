@@ -1,5 +1,8 @@
 # Decision Field Theory Under Time Pressure
 Author: Mason Smith
+
+Email: mosmith3@asu.edu
+
 # Introduction
 Decision field theory (DFT) is a model of cognitive decision-making that predicts expected choice probability and response time of human decisions. 
 DFT belongs to a class of _sequential sampling models_ that tpyically produce estimates of how long a decision will take to make.
@@ -23,6 +26,7 @@ factorial design described in the next sections. Player choice probabilities and
 as dependent variables in response to these manipulations.
 
 ![img.png](img.png)
+
 Figure 1. Data Collection Platform
 
 ## Factor 1: Risk Level
@@ -41,6 +45,24 @@ another card or not within 5 seconds”
 another card or not within 4 seconds”
 - Level 3 - Medium Time Pressure (High TP): Participants are instructed to ”make your decision to take
 another card or not within 3 seconds”
+
+# Procedure
+Trials are created to ensure that all possible combinations of player (N = 8 possible sums from 12 to 19) and dealer
+cards (N = 9 cards from 2 to 10) are presented in random order. Combinations of player cards that equal a possible
+sum were randomly sampled from possible combinations (e.g., for a sum of 14, 4 and 10 as well as 6 and 8 are equally
+likely). This results in N = 72 trials spanning the possible combination of cards presented. After each trial, a blank
+screen will appear for 350ms followed by an exclamation mark indicating that their decision was recorded. If the
+participant does not does not make the decision in the alloted time, they will see a red ”X” and that decision will
+be appended to the end of the current trial. Participants can then press the ”spacebar” to advance to the next trial
+where they respond to ”Take an additional card?” by pressing the ”b” key labeled ”yes” or pressing the ”n” key
+labeled ”no”. All 72 trials were repeated over three experimental blocks (time pressures) for a total of N = 216
+decisions in this experiment. Order of the experimental blocks will be randomized to mitigate order effects influencing
+the results of analysis.
+Before the experiment begins, instructions describing the simplified blackjack game is given. After the instructions,
+participants are given three practice trials. Participants are encouraged to ask questions at any time. Data collected
+from participants will consist of 1) their choice (hit/stay) of each trial and 2) their response time to their decision.
+Also, basic demographic information (age and sex) will be collected before the experiment.
+4
 
 # Code Overview
 - _/environment/..._
