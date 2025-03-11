@@ -3,6 +3,9 @@ Author: Mason Smith
 
 Email: mosmith3@asu.edu
 
+For a full technical writeup, see [writeup.pdf](https://github.com/user-attachments/files/19173327/writeup.pdf)
+
+
 # Introduction
 Decision field theory (DFT) is a model of cognitive decision-making that predicts expected choice probability and response time of human decisions. 
 DFT belongs to a class of _sequential sampling models_ that tpyically produce estimates of how long a decision will take to make.
